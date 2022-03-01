@@ -12,3 +12,13 @@ header {
 .icon-bottom{
     font-size: 1em;
 }
+
+.icon-shape {
+    text-align: center;
+    margin-left: 1%;
+    width: 200px;
+    height: 6rem;
+    border-style: solid;
+    border-radius: 100px / 50px;
+    border-width: 5px;
+}
