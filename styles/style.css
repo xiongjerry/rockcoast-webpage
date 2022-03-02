@@ -1,5 +1,7 @@
 
 header {
+    position: absolute;
+    top: 0;
     background-color: #708090 ;
     width: 100%;
     height: 10rem;
@@ -8,13 +10,11 @@ header {
 
 .logo-container {
     height: 100%;
-    display: block;
-    margin: 0 auto;
 }
 
 .logo {
-    /* display: flex;
-    flex-direction: column; */
+    position: absolute;
+    top: 0;
     font-size: 200%;
     text-align: center;
     width: 300px;
@@ -22,17 +22,24 @@ header {
     border-style: solid;
     border-radius: 300px / 150px;
     border-width: 5px;
-    background-color: #d27831 ;
+    margin: 0 auto;
 }
 
 .logo-text {
+    width: 300px;
+    height: 150px;
     font-size: 250%;
-    
+    display: flex;
+    flex-direction: column;
+    background-color: #d27831 ;
+    border-radius: 300px / 150px;
 }
 
 .logo-text span{
-    font-size:80%;
+    font-size:50%;
     color: #fefefe;
     background-color: #1e1d22;
+    width: 300px;
+    height: 150px;
 }
 
