@@ -3,18 +3,7 @@ header {
     background-color: #708090 ;
     width: 100%;
     height: 10rem;
-}
-
-.logo-top {
-    font-size: 150%;
-    /* background-color: #d27831 ; */
-    /* border-style: solid; */
-}
-
-.logo-bottom{
-    /* background-color: #1e1d22; */
-    color: #fefefe;
-    /* border-style: solid; */
+    display: block;
 }
 
 .logo {
@@ -28,3 +17,16 @@ header {
     border-radius: 300px / 150px;
     border-width: 5px;
 }
+
+.logo-text {
+    font-size: 150%;
+    /* background-color: #d27831 ; */
+    /* border-style: solid; */
+}
+
+.logo-text span{
+    color: #fefefe;
+    /* background-color: #1e1d22; */
+    /* border-style: solid; */
+}
+
