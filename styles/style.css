@@ -4,6 +4,7 @@
     list-style: none;
 }
 
+/* ⬇⬇ Header related classes ⬇⬇ */
 
 header {
     position: absolute;
@@ -45,7 +46,7 @@ header {
     top: 4px;
 }
 
-.bottom{
+.bottom {
     font-size: 180%;
     font-style: normal;
     /* font-family: ; */
@@ -64,7 +65,7 @@ header {
     border-radius: 5px;
 }
 
-.navbar a{
+.navbar a {
     font-size: 20px;
     display: table;
     float: left;
@@ -92,3 +93,107 @@ header {
     border-width: .5px;
     border-color:  #ffffff;
 }
+
+/* ⬇⬇ Body related classes ⬇⬇ */
+
+.main {
+    position: absolute;
+    top: 160px;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+.container {
+    height: 75%;
+    width: 98%;
+    margin: 15px auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.label {
+    position: relative;
+    /* font-family: ; */
+    color: #fc740d;
+    padding: 20px 15px 15px;
+}
+
+.description {
+    font-size: 130%;
+    /* font-family: ; */
+    padding: 0px 15px 20px;
+}
+
+/* ⬇⬇ Card related classes ⬇⬇ */
+
+.card-container {
+    display: flex;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.card {
+    color: #ffffff;
+    background-color: #fe8d3f;
+    height: 325px;
+    width: 225px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.card-info {
+    position: relative;
+    left: 15%;
+    top: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.card-info-two {
+    position: relative;
+    left: 50%;
+    bottom: 40px;
+    height: 30px;
+    width: 60px;
+    padding-top: 5px;
+}
+
+.card a{
+    position: relative;
+    left: 70px;
+    bottom: 15px;
+}
+
+.line {
+    height: 2px;
+    width: 190px;
+    background-color: #c05912;
+    margin: 10px auto 15px;
+}
+
+.line-two {
+    position: relative;
+    bottom: 10px;
+    height: 2px;
+    width: 190px;
+    background-color: #c05912;
+    margin: 10px auto 15px;
+}
+
+.product {
+    font-size: 18px;
+    /* font-family: ; */
+    color: #000000;
+    position: relative;
+    bottom: 33px;
+    text-align: center;
+}
+
+.product-description {
+    font-size: 18px;
+    max-width: 140px;
+    position: relative;
+    left: 15%;
+}
+
