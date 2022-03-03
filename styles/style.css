@@ -172,6 +172,15 @@ header {
     margin: 10px auto 15px;
 }
 
+.line-two {
+    position: relative;
+    bottom: 10px;
+    height: 2px;
+    width: 190px;
+    background-color: #c05912;
+    margin: 10px auto 15px;
+}
+
 .product {
     font-size: 18px;
     /* font-family: ; */
