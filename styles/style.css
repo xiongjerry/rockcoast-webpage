@@ -49,3 +49,7 @@ header {
     color: #fefefe;
 }
 
+.navbar {
+    float: right;
+    height: 100%;
+}
