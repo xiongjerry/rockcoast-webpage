@@ -4,6 +4,7 @@
     list-style: none;
 }
 
+/* ⬇⬇ Header related classes ⬇⬇ */
 
 header {
     position: absolute;
@@ -93,6 +94,8 @@ header {
     border-color:  #ffffff;
 }
 
+/* ⬇⬇ Body related classes ⬇⬇ */
+
 .main {
     position: absolute;
     top: 160px;
@@ -121,6 +124,8 @@ header {
     /* font-family: ; */
     padding: 0px 15px 20px;
 }
+
+/* ⬇⬇ Card related classes ⬇⬇ */
 
 .card-container {
     display: flex;
