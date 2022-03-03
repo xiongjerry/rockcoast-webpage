@@ -124,10 +124,12 @@ header {
 
 .card-container{
     display: flex;
+    padding-left: 30px;
 }
 
 .card {
     background-color: #fe8d3f;
-    height: 70%;
-    width: 300px;
+    height: 300px;
+    width: 200px;
+    margin: 15px;
 }
