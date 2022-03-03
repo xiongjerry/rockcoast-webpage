@@ -56,15 +56,15 @@ header {
 
 .navbar {
     float: right;
-    height: 100%;
+    height: 50px;
     background-color: #ffffff;
 }
 
 .navbar a{
-    height: 100%;
+    font-size: 20px;
     display: table;
     float: left;
-    padding: 0px 20px;
+    padding: 13.5px 15px;
 }
 
 .navbar a li:hover {
@@ -72,8 +72,9 @@ header {
   }
 
 .navbar a li{
-    font-size: 20px;
+    text-align: center;
+    height: 20px;
+    width: 100px;
     display: table-cell;
     vertical-align: middle;
-    height: 100%;
 }
