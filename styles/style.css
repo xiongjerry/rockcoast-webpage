@@ -129,7 +129,8 @@ header {
 
 .card {
     background-color: #fe8d3f;
-    height: 300px;
-    width: 200px;
+    height: 350px;
+    width: 250px;
     margin: 15px;
+    border-radius: 15px;
 }
