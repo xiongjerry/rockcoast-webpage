@@ -128,9 +128,19 @@ header {
 }
 
 .card {
+    color: #e4e1e2;
     background-color: #fe8d3f;
     height: 350px;
     width: 250px;
     margin: 15px;
     border-radius: 15px;
+}
+
+.product{
+    font-size: 20px;
+    /* font-family: ; */
+    color: #000000;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
 }
