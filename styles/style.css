@@ -143,10 +143,20 @@ header {
 }
 
 .card-info {
-    height: 50px;
-    width: 50px;
-    display: flexbox;
-    margin: 12px;
+    position: relative;
+    left: 15%;
+    top: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.card-info-two {
+    position: relative;
+    left: 50%;
+    bottom: 30px;
+    height: 30px;
+    width: 60px;
+    padding-bottom: 10px;
 }
 
 .line {
