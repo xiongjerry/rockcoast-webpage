@@ -55,8 +55,11 @@ header {
 }
 
 .navbar {
-    float: right;
-    height: 50px;
+    position: absolute;
+    top: 40px;
+    left: 340px;
+    height: 55px;
+    width: 600px;
     background-color: #ffffff;
     border-radius: 5px;
 }
@@ -65,7 +68,7 @@ header {
     font-size: 20px;
     display: table;
     float: left;
-    padding: 7.5px 15px;
+    padding: 10px 15px;
 }
 
 .navbar a li:hover {
@@ -78,6 +81,7 @@ header {
   }
 
 .navbar a li {
+    /* font-family: ; */
     text-align: center;
     height: 35px;
     width: 100px;
