@@ -137,6 +137,13 @@ header {
     border-radius: 15px;
 }
 
+.line{
+    height: 2px;
+    width: 190px;
+    background-color: #c05912;
+    margin: 60px auto 15px;
+}
+
 .product{
     font-size: 20px;
     /* font-family: ; */
