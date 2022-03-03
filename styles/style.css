@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 
 header {
     position: absolute;
@@ -5,7 +11,6 @@ header {
     background-color: #708090 ;
     width: 100%;
     height: 10rem;
-    display: block;
 }
 
 .logo {
@@ -49,3 +54,41 @@ header {
     color: #fefefe;
 }
 
+.navbar {
+    position: absolute;
+    top: 40px;
+    left: 340px;
+    height: 55px;
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.navbar a{
+    font-size: 20px;
+    display: table;
+    float: left;
+    padding: 10px 15px;
+}
+
+.navbar a li:hover {
+    background-color: #e4e1e2;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #1e1d22;
+    
+  }
+
+.navbar a li {
+    /* font-family: ; */
+    text-align: center;
+    height: 35px;
+    width: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: .5px;
+    border-color:  #ffffff;
+}
