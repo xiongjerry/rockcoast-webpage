@@ -39,11 +39,12 @@ header {
 }
 
 .top {
+    color: #1e1d22;
     font-size: 300%;
     font-style: italic;
-    /* font-family: ; */
+    font-family: 'Mogra';
     position: relative;
-    top: 4px;
+    top: 9px;
 }
 
 .bottom {
