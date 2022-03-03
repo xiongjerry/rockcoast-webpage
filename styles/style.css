@@ -48,12 +48,12 @@ header {
 }
 
 .bottom {
-    font-size: 180%;
-    font-style: normal;
-    /* font-family: ; */
-    position: relative;
-    top: -25px;
     color: #fefefe;
+    font-size: 150%;
+    font-style: normal;
+    font-family: 'Commissioner';
+    position: relative;
+    bottom: 35px;
 }
 
 .navbar {
