@@ -58,6 +58,7 @@ header {
     float: right;
     height: 50px;
     background-color: #ffffff;
+    border-radius: 5px;
 }
 
 .navbar a{
@@ -69,6 +70,7 @@ header {
 
 .navbar a li:hover {
     background-color: #e4e1e2;
+    border-radius: 5px;
   }
 
 .navbar a li{
