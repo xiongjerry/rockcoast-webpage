@@ -108,3 +108,10 @@ header {
     background-color: #ffffff;
     border-radius: 30px;
 }
+
+.label {
+    position: relative;
+    /* font-family: ; */
+    color: #fc740d;
+    padding: 20px 15px 20px;
+}
