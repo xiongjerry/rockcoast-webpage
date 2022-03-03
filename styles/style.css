@@ -115,3 +115,9 @@ header {
     color: #fc740d;
     padding: 20px 15px 20px;
 }
+
+.description {
+    font-size: 130%;
+    /* font-family: ; */
+    padding: 0px 15px 20px;
+}
