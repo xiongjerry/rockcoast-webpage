@@ -142,6 +142,13 @@ header {
     border-radius: 15px;
 }
 
+.card-info {
+    height: 50px;
+    width: 50px;
+    display: flexbox;
+    margin: 12px;
+}
+
 .line {
     height: 2px;
     width: 190px;
@@ -164,3 +171,4 @@ header {
     position: relative;
     left: 15%;
 }
+
