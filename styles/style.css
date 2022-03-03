@@ -116,8 +116,10 @@ header {
 }
 
 .label {
+    font-size: 30px;
     position: relative;
-    /* font-family: ; */
+    font-family: 'Be Vietnam Pro', monospace;
+    letter-spacing: 7px;
     color: #fc740d;
     padding: 20px 15px 15px;
 }
