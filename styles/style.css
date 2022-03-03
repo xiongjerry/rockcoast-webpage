@@ -125,3 +125,9 @@ header {
 .card-container{
     display: flex;
 }
+
+.card {
+    background-color: #fe8d3f;
+    height: 70%;
+    width: 300px;
+}
