@@ -153,10 +153,16 @@ header {
 .card-info-two {
     position: relative;
     left: 50%;
-    bottom: 30px;
+    bottom: 40px;
     height: 30px;
     width: 60px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.card a{
+    position: relative;
+    left: 70px;
+    bottom: 15px;
 }
 
 .line {
