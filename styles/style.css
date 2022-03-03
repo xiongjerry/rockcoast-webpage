@@ -140,6 +140,7 @@ header {
 
 .card {
     color: #ffffff;
+    font-family: Arial, sans-serif;
     background-color: #fe8d3f;
     height: 325px;
     width: 225px;
@@ -188,7 +189,6 @@ header {
 
 .product {
     font-size: 18px;
-    /* font-family: ; */
     color: #000000;
     position: relative;
     bottom: 33px;
