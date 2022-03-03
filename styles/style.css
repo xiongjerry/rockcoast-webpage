@@ -45,7 +45,7 @@ header {
     top: 4px;
 }
 
-.bottom{
+.bottom {
     font-size: 180%;
     font-style: normal;
     /* font-family: ; */
@@ -64,7 +64,7 @@ header {
     border-radius: 5px;
 }
 
-.navbar a{
+.navbar a {
     font-size: 20px;
     display: table;
     float: left;
@@ -122,7 +122,7 @@ header {
     padding: 0px 15px 20px;
 }
 
-.card-container{
+.card-container {
     display: flex;
     padding-left: 30px;
     padding-top: 50px;
@@ -137,18 +137,25 @@ header {
     border-radius: 15px;
 }
 
-.line{
+.line {
     height: 2px;
     width: 190px;
     background-color: #c05912;
-    margin: 60px auto 15px;
+    margin: 10px auto 15px;
 }
 
-.product{
-    font-size: 20px;
+.product {
+    font-size: 18px;
     /* font-family: ; */
     color: #000000;
     position: relative;
     bottom: 33px;
     text-align: center;
+}
+
+.product-description {
+    font-size: 18px;
+    max-width: 140px;
+    position: relative;
+    left: 15%;
 }
