@@ -113,7 +113,7 @@ header {
     position: relative;
     /* font-family: ; */
     color: #fc740d;
-    padding: 20px 15px 20px;
+    padding: 20px 15px 15px;
 }
 
 .description {
@@ -125,13 +125,14 @@ header {
 .card-container{
     display: flex;
     padding-left: 30px;
+    padding-top: 50px;
 }
 
 .card {
     color: #e4e1e2;
     background-color: #fe8d3f;
-    height: 350px;
-    width: 250px;
+    height: 325px;
+    width: 225px;
     margin: 15px;
     border-radius: 15px;
 }
@@ -141,6 +142,6 @@ header {
     /* font-family: ; */
     color: #000000;
     position: relative;
-    bottom: 30px;
+    bottom: 33px;
     text-align: center;
 }
