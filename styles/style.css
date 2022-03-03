@@ -22,9 +22,6 @@ header {
 .logo-text {
     width: 100%;
     height: 150px;
-    font-size: 250%;
-    /* font-family: ; */
-    font-style: italic;
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -36,14 +33,19 @@ header {
 }
 
 .top {
+    font-size: 300%;
+    font-style: italic;
+    /* font-family: ; */
     position: relative;
-    top: 18px;
+    top: 4px;
 }
 
 .bottom{
-    font-size:50%;
+    font-size: 180%;
     font-style: normal;
     /* font-family: ; */
+    position: relative;
+    top: -25px;
     color: #fefefe;
 }
 
